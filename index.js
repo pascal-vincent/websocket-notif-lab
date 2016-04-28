@@ -6,10 +6,14 @@ const server_ip_address = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1';
 
 // if cloud9 port = process.env.PORT
 
-app.get('/', function (req, res) {
-  res.send('Hello World!');
-});
+function start() {
+    app.get('/', function (req, res) {
+        res.send('Hello World!');
+    });
 
-app.listen(server_port, function () {
-  console.log('Test app started!');
-});
+    app.listen(server_port, function () {
+        console.log('Test app started!');
+    });
+}
+
+console.log('server port = ' + server_port);
