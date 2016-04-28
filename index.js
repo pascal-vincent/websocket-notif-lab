@@ -11,7 +11,7 @@ function start() {
         res.send('Hello World!');
     });
 
-    app.listen(server_port, function () {
+    app.listen(server_port, server_ip_address, function () {
         console.log('Test app started!');
     });
 }
