@@ -17,3 +17,5 @@ function start() {
 }
 
 console.log('NODEJS ENV PORT = ' + process.env.OPENSHIFT_NODEJS_PORT);
+console.log('SERVER IP = ' + process.env.OPENSHIFT_NODEJS_IP);
+start();
