@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/pascal-vincent/c9lab/issues"
   },
-  "homepage": "https://github.com/pascal-vincent/c9lab#readme"
+  "homepage": "https://github.com/pascal-vincent/c9lab#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
 }
