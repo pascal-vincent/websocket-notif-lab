@@ -16,4 +16,4 @@ function start() {
     });
 }
 
-console.log('server port = ' + server_port);
+console.log('NODEJS ENV PORT = ' + process.env.OPENSHIFT_NODEJS_PORT);
