@@ -80,7 +80,7 @@ module.exports.connections = {
         port: process.env.OPENSHIFT_MONGODB_DB_PORT,
         user: 'pascal', //optional
         password: '1hit2run', //optional
-        database: 'nodejstest' //optional
+        database: 'wsnotiflab' //optional
     }
 
     /***************************************************************************
