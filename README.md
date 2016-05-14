@@ -1,3 +1,2 @@
-# smarteo-ds-poc
-
-a [Sails](http://sailsjs.org) application
+# websocket-notif-lab
+Test notification Android avec websocket, partie server

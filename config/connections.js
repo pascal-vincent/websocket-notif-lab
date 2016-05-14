@@ -70,8 +70,8 @@ module.exports.connections = {
         host: '127.0.0.1',
         port: 27017,
         user: 'pascal', //optional
-        password: '1hit2run', //optional
-        database: 'nodejstest' //optional
+        // password: '1hit2run', //optional
+        database: 'websocket-notif-lab' //optional
     },
 
     mongodbServerProd: {
