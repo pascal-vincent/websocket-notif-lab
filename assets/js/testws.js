@@ -1,6 +1,6 @@
 
 io.socket.on('connect', function () {
-    io.socket.get('/topic/573a1c323637ed818e373a40', {}, function (topic) {
+    io.socket.get('/topic?where={"name":["100200","101201"]}', {}, function (topic) {
         console.log(JSON.stringify(topic));
     });
 
